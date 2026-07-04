@@ -1,0 +1,584 @@
+{
+  "ok": true,
+  "states": {
+    "idle": {
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "transition_mad": [
+        26.68,
+        24.19,
+        17.69,
+        16.44,
+        15.87,
+        10.33
+      ],
+      "loop_to_median_ratio": 0.58,
+      "empty_frames": [],
+      "bbox": [
+        {
+          "x": 20,
+          "y": 8,
+          "w": 152,
+          "h": 191,
+          "bottom": 199
+        },
+        {
+          "x": 14,
+          "y": 6,
+          "w": 164,
+          "h": 194,
+          "bottom": 200
+        },
+        {
+          "x": 24,
+          "y": 10,
+          "w": 144,
+          "h": 191,
+          "bottom": 201
+        },
+        {
+          "x": 26,
+          "y": 13,
+          "w": 140,
+          "h": 189,
+          "bottom": 202
+        },
+        {
+          "x": 23,
+          "y": 10,
+          "w": 146,
+          "h": 191,
+          "bottom": 201
+        },
+        {
+          "x": 21,
+          "y": 8,
+          "w": 150,
+          "h": 193,
+          "bottom": 201
+        }
+      ],
+      "notes": "loop_diff is final-frame to first-frame transition; ratio is informational, visual QA remains authoritative."
+    },
+    "running-right": {
+      "expected_frames": 8,
+      "actual_frames": 8,
+      "transition_mad": [
+        15.2,
+        31.84,
+        34.8,
+        20.5,
+        27.22,
+        29.15,
+        32.09,
+        18.78
+      ],
+      "loop_to_median_ratio": 0.64,
+      "empty_frames": [],
+      "bbox": [
+        {
+          "x": 24,
+          "y": 12,
+          "w": 143,
+          "h": 189,
+          "bottom": 201
+        },
+        {
+          "x": 23,
+          "y": 11,
+          "w": 145,
+          "h": 188,
+          "bottom": 199
+        },
+        {
+          "x": 23,
+          "y": 7,
+          "w": 145,
+          "h": 182,
+          "bottom": 189
+        },
+        {
+          "x": 23,
+          "y": 14,
+          "w": 145,
+          "h": 187,
+          "bottom": 201
+        },
+        {
+          "x": 23,
+          "y": 17,
+          "w": 145,
+          "h": 184,
+          "bottom": 201
+        },
+        {
+          "x": 29,
+          "y": 16,
+          "w": 133,
+          "h": 180,
+          "bottom": 196
+        },
+        {
+          "x": 24,
+          "y": 7,
+          "w": 143,
+          "h": 188,
+          "bottom": 195
+        },
+        {
+          "x": 26,
+          "y": 14,
+          "w": 138,
+          "h": 187,
+          "bottom": 201
+        }
+      ],
+      "notes": "loop_diff is final-frame to first-frame transition; ratio is informational, visual QA remains authoritative."
+    },
+    "running-left": {
+      "expected_frames": 8,
+      "actual_frames": 8,
+      "transition_mad": [
+        15.2,
+        31.84,
+        34.8,
+        20.5,
+        27.22,
+        29.15,
+        32.09,
+        18.78
+      ],
+      "loop_to_median_ratio": 0.64,
+      "empty_frames": [],
+      "bbox": [
+        {
+          "x": 25,
+          "y": 12,
+          "w": 143,
+          "h": 189,
+          "bottom": 201
+        },
+        {
+          "x": 24,
+          "y": 11,
+          "w": 145,
+          "h": 188,
+          "bottom": 199
+        },
+        {
+          "x": 24,
+          "y": 7,
+          "w": 145,
+          "h": 182,
+          "bottom": 189
+        },
+        {
+          "x": 24,
+          "y": 14,
+          "w": 145,
+          "h": 187,
+          "bottom": 201
+        },
+        {
+          "x": 24,
+          "y": 17,
+          "w": 145,
+          "h": 184,
+          "bottom": 201
+        },
+        {
+          "x": 30,
+          "y": 16,
+          "w": 133,
+          "h": 180,
+          "bottom": 196
+        },
+        {
+          "x": 25,
+          "y": 7,
+          "w": 143,
+          "h": 188,
+          "bottom": 195
+        },
+        {
+          "x": 28,
+          "y": 14,
+          "w": 138,
+          "h": 187,
+          "bottom": 201
+        }
+      ],
+      "notes": "loop_diff is final-frame to first-frame transition; ratio is informational, visual QA remains authoritative."
+    },
+    "waving": {
+      "expected_frames": 4,
+      "actual_frames": 4,
+      "transition_mad": [
+        12.21,
+        15.25,
+        17.49,
+        10.96
+      ],
+      "loop_to_median_ratio": 0.72,
+      "empty_frames": [],
+      "bbox": [
+        {
+          "x": 22,
+          "y": 7,
+          "w": 148,
+          "h": 195,
+          "bottom": 202
+        },
+        {
+          "x": 21,
+          "y": 7,
+          "w": 150,
+          "h": 195,
+          "bottom": 202
+        },
+        {
+          "x": 21,
+          "y": 6,
+          "w": 150,
+          "h": 196,
+          "bottom": 202
+        },
+        {
+          "x": 24,
+          "y": 7,
+          "w": 145,
+          "h": 195,
+          "bottom": 202
+        }
+      ],
+      "notes": "loop_diff is final-frame to first-frame transition; ratio is informational, visual QA remains authoritative."
+    },
+    "jumping": {
+      "expected_frames": 5,
+      "actual_frames": 5,
+      "transition_mad": [
+        22.51,
+        45.12,
+        28.87,
+        55.57,
+        22.43
+      ],
+      "loop_to_median_ratio": 0.61,
+      "empty_frames": [],
+      "bbox": [
+        {
+          "x": 40,
+          "y": 56,
+          "w": 112,
+          "h": 146,
+          "bottom": 202
+        },
+        {
+          "x": 38,
+          "y": 73,
+          "w": 115,
+          "h": 129,
+          "bottom": 202
+        },
+        {
+          "x": 39,
+          "y": 24,
+          "w": 114,
+          "h": 136,
+          "bottom": 160
+        },
+        {
+          "x": 39,
+          "y": 6,
+          "w": 114,
+          "h": 136,
+          "bottom": 142
+        },
+        {
+          "x": 38,
+          "y": 69,
+          "w": 116,
+          "h": 133,
+          "bottom": 202
+        }
+      ],
+      "notes": "loop_diff is final-frame to first-frame transition; ratio is informational, visual QA remains authoritative."
+    },
+    "failed": {
+      "expected_frames": 8,
+      "actual_frames": 8,
+      "transition_mad": [
+        10.25,
+        26.42,
+        17.72,
+        24.18,
+        12.65,
+        27.87,
+        16.58,
+        11.71
+      ],
+      "loop_to_median_ratio": 0.66,
+      "empty_frames": [],
+      "bbox": [
+        {
+          "x": 27,
+          "y": 7,
+          "w": 138,
+          "h": 194,
+          "bottom": 201
+        },
+        {
+          "x": 27,
+          "y": 7,
+          "w": 137,
+          "h": 194,
+          "bottom": 201
+        },
+        {
+          "x": 28,
+          "y": 13,
+          "w": 136,
+          "h": 188,
+          "bottom": 201
+        },
+        {
+          "x": 30,
+          "y": 13,
+          "w": 132,
+          "h": 188,
+          "bottom": 201
+        },
+        {
+          "x": 29,
+          "y": 22,
+          "w": 134,
+          "h": 179,
+          "bottom": 201
+        },
+        {
+          "x": 30,
+          "y": 19,
+          "w": 132,
+          "h": 182,
+          "bottom": 201
+        },
+        {
+          "x": 30,
+          "y": 12,
+          "w": 132,
+          "h": 189,
+          "bottom": 201
+        },
+        {
+          "x": 28,
+          "y": 10,
+          "w": 136,
+          "h": 191,
+          "bottom": 201
+        }
+      ],
+      "notes": "loop_diff is final-frame to first-frame transition; ratio is informational, visual QA remains authoritative."
+    },
+    "waiting": {
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "transition_mad": [
+        33.55,
+        35.41,
+        30.58,
+        29.34,
+        16.63,
+        11.11
+      ],
+      "loop_to_median_ratio": 0.36,
+      "empty_frames": [],
+      "bbox": [
+        {
+          "x": 22,
+          "y": 11,
+          "w": 147,
+          "h": 188,
+          "bottom": 199
+        },
+        {
+          "x": 21,
+          "y": 18,
+          "w": 149,
+          "h": 183,
+          "bottom": 201
+        },
+        {
+          "x": 24,
+          "y": 6,
+          "w": 143,
+          "h": 194,
+          "bottom": 200
+        },
+        {
+          "x": 26,
+          "y": 10,
+          "w": 139,
+          "h": 192,
+          "bottom": 202
+        },
+        {
+          "x": 23,
+          "y": 12,
+          "w": 144,
+          "h": 188,
+          "bottom": 200
+        },
+        {
+          "x": 22,
+          "y": 12,
+          "w": 147,
+          "h": 188,
+          "bottom": 200
+        }
+      ],
+      "notes": "loop_diff is final-frame to first-frame transition; ratio is informational, visual QA remains authoritative."
+    },
+    "running": {
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "transition_mad": [
+        11.8,
+        11.68,
+        22.82,
+        28.36,
+        24.46,
+        11.44
+      ],
+      "loop_to_median_ratio": 0.5,
+      "empty_frames": [],
+      "bbox": [
+        {
+          "x": 23,
+          "y": 6,
+          "w": 146,
+          "h": 195,
+          "bottom": 201
+        },
+        {
+          "x": 22,
+          "y": 7,
+          "w": 147,
+          "h": 194,
+          "bottom": 201
+        },
+        {
+          "x": 23,
+          "y": 9,
+          "w": 146,
+          "h": 193,
+          "bottom": 202
+        },
+        {
+          "x": 26,
+          "y": 8,
+          "w": 139,
+          "h": 193,
+          "bottom": 201
+        },
+        {
+          "x": 22,
+          "y": 7,
+          "w": 147,
+          "h": 194,
+          "bottom": 201
+        },
+        {
+          "x": 22,
+          "y": 7,
+          "w": 148,
+          "h": 194,
+          "bottom": 201
+        }
+      ],
+      "notes": "loop_diff is final-frame to first-frame transition; ratio is informational, visual QA remains authoritative."
+    },
+    "review": {
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "transition_mad": [
+        25.36,
+        23.77,
+        27.6,
+        27.86,
+        12.15,
+        8.1
+      ],
+      "loop_to_median_ratio": 0.32,
+      "empty_frames": [],
+      "bbox": [
+        {
+          "x": 23,
+          "y": 7,
+          "w": 146,
+          "h": 194,
+          "bottom": 201
+        },
+        {
+          "x": 22,
+          "y": 10,
+          "w": 148,
+          "h": 192,
+          "bottom": 202
+        },
+        {
+          "x": 22,
+          "y": 8,
+          "w": 147,
+          "h": 194,
+          "bottom": 202
+        },
+        {
+          "x": 22,
+          "y": 6,
+          "w": 148,
+          "h": 196,
+          "bottom": 202
+        },
+        {
+          "x": 23,
+          "y": 8,
+          "w": 146,
+          "h": 193,
+          "bottom": 201
+        },
+        {
+          "x": 23,
+          "y": 7,
+          "w": 146,
+          "h": 194,
+          "bottom": 201
+        }
+      ],
+      "notes": "loop_diff is final-frame to first-frame transition; ratio is informational, visual QA remains authoritative."
+    }
+  },
+  "gif_frame_counts": {
+    "previews": {
+      "idle": 6,
+      "running-right": 8,
+      "running-left": 8,
+      "waving": 4,
+      "jumping": 5,
+      "failed": 8,
+      "waiting": 6,
+      "running": 6,
+      "review": 6
+    },
+    "previews-smooth": {
+      "idle": 12,
+      "running-right": 16,
+      "running-left": 16,
+      "waving": 8,
+      "jumping": 10,
+      "failed": 16,
+      "waiting": 12,
+      "running": 12,
+      "review": 12
+    }
+  }
+}

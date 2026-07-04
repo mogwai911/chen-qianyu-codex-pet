@@ -1,0 +1,962 @@
+{
+  "ok": true,
+  "frames_root": "C:\\Users\\mogwai\\Documents\\Codex\\2026-07-03\\xi\\work\\pets\\xiaochen-hifi-run\\edge-repair-v2\\frames",
+  "errors": [],
+  "warnings": [],
+  "rows": [
+    {
+      "state": "idle",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": null,
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "C:\\Users\\mogwai\\Documents\\Codex\\2026-07-03\\xi\\work\\pets\\xiaochen-hifi-run\\edge-repair-v2\\frames\\idle\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 18417,
+          "bbox": [
+            18,
+            6,
+            174,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "C:\\Users\\mogwai\\Documents\\Codex\\2026-07-03\\xi\\work\\pets\\xiaochen-hifi-run\\edge-repair-v2\\frames\\idle\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19347,
+          "bbox": [
+            13,
+            5,
+            179,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "C:\\Users\\mogwai\\Documents\\Codex\\2026-07-03\\xi\\work\\pets\\xiaochen-hifi-run\\edge-repair-v2\\frames\\idle\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 18296,
+          "bbox": [
+            21,
+            8,
+            171,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "file": "C:\\Users\\mogwai\\Documents\\Codex\\2026-07-03\\xi\\work\\pets\\xiaochen-hifi-run\\edge-repair-v2\\frames\\idle\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17879,
+          "bbox": [
+            24,
+            11,
+            168,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 4,
+          "file": "C:\\Users\\mogwai\\Documents\\Codex\\2026-07-03\\xi\\work\\pets\\xiaochen-hifi-run\\edge-repair-v2\\frames\\idle\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 18294,
+          "bbox": [
+            21,
+            8,
+            171,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 5,
+          "file": "C:\\Users\\mogwai\\Documents\\Codex\\2026-07-03\\xi\\work\\pets\\xiaochen-hifi-run\\edge-repair-v2\\frames\\idle\\05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 18422,
+          "bbox": [
+            19,
+            7,
+            173,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ]
+    },
+    {
+      "state": "running-right",
+      "expected_frames": 8,
+      "actual_frames": 8,
+      "extraction_method": null,
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "C:\\Users\\mogwai\\Documents\\Codex\\2026-07-03\\xi\\work\\pets\\xiaochen-hifi-run\\edge-repair-v2\\frames\\running-right\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17123,
+          "bbox": [
+            23,
+            10,
+            169,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "C:\\Users\\mogwai\\Documents\\Codex\\2026-07-03\\xi\\work\\pets\\xiaochen-hifi-run\\edge-repair-v2\\frames\\running-right\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17210,
+          "bbox": [
+            21,
+            10,
+            169,
+            201
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "C:\\Users\\mogwai\\Documents\\Codex\\2026-07-03\\xi\\work\\pets\\xiaochen-hifi-run\\edge-repair-v2\\frames\\running-right\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16921,
+          "bbox": [
+            21,
+            5,
+            170,
+            189
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "file": "C:\\Users\\mogwai\\Documents\\Codex\\2026-07-03\\xi\\work\\pets\\xiaochen-hifi-run\\edge-repair-v2\\frames\\running-right\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16911,
+          "bbox": [
+            22,
+            12,
+            170,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 4,
+          "file": "C:\\Users\\mogwai\\Documents\\Codex\\2026-07-03\\xi\\work\\pets\\xiaochen-hifi-run\\edge-repair-v2\\frames\\running-right\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16366,
+          "bbox": [
+            21,
+            15,
+            170,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 5,
+          "file": "C:\\Users\\mogwai\\Documents\\Codex\\2026-07-03\\xi\\work\\pets\\xiaochen-hifi-run\\edge-repair-v2\\frames\\running-right\\05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15239,
+          "bbox": [
+            27,
+            14,
+            164,
+            198
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 6,
+          "file": "C:\\Users\\mogwai\\Documents\\Codex\\2026-07-03\\xi\\work\\pets\\xiaochen-hifi-run\\edge-repair-v2\\frames\\running-right\\06.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16711,
+          "bbox": [
+            22,
+            5,
+            169,
+            196
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 7,
+          "file": "C:\\Users\\mogwai\\Documents\\Codex\\2026-07-03\\xi\\work\\pets\\xiaochen-hifi-run\\edge-repair-v2\\frames\\running-right\\07.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16501,
+          "bbox": [
+            24,
+            12,
+            167,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ]
+    },
+    {
+      "state": "running-left",
+      "expected_frames": 8,
+      "actual_frames": 8,
+      "extraction_method": null,
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "C:\\Users\\mogwai\\Documents\\Codex\\2026-07-03\\xi\\work\\pets\\xiaochen-hifi-run\\edge-repair-v2\\frames\\running-left\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17123,
+          "bbox": [
+            23,
+            10,
+            169,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "C:\\Users\\mogwai\\Documents\\Codex\\2026-07-03\\xi\\work\\pets\\xiaochen-hifi-run\\edge-repair-v2\\frames\\running-left\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17210,
+          "bbox": [
+            23,
+            10,
+            171,
+            201
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "C:\\Users\\mogwai\\Documents\\Codex\\2026-07-03\\xi\\work\\pets\\xiaochen-hifi-run\\edge-repair-v2\\frames\\running-left\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16921,
+          "bbox": [
+            22,
+            5,
+            171,
+            189
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "file": "C:\\Users\\mogwai\\Documents\\Codex\\2026-07-03\\xi\\work\\pets\\xiaochen-hifi-run\\edge-repair-v2\\frames\\running-left\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16911,
+          "bbox": [
+            22,
+            12,
+            170,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 4,
+          "file": "C:\\Users\\mogwai\\Documents\\Codex\\2026-07-03\\xi\\work\\pets\\xiaochen-hifi-run\\edge-repair-v2\\frames\\running-left\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16366,
+          "bbox": [
+            22,
+            15,
+            171,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 5,
+          "file": "C:\\Users\\mogwai\\Documents\\Codex\\2026-07-03\\xi\\work\\pets\\xiaochen-hifi-run\\edge-repair-v2\\frames\\running-left\\05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15239,
+          "bbox": [
+            28,
+            14,
+            165,
+            198
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 6,
+          "file": "C:\\Users\\mogwai\\Documents\\Codex\\2026-07-03\\xi\\work\\pets\\xiaochen-hifi-run\\edge-repair-v2\\frames\\running-left\\06.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16711,
+          "bbox": [
+            23,
+            5,
+            170,
+            196
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 7,
+          "file": "C:\\Users\\mogwai\\Documents\\Codex\\2026-07-03\\xi\\work\\pets\\xiaochen-hifi-run\\edge-repair-v2\\frames\\running-left\\07.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16501,
+          "bbox": [
+            25,
+            12,
+            168,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ]
+    },
+    {
+      "state": "waving",
+      "expected_frames": 4,
+      "actual_frames": 4,
+      "extraction_method": null,
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "C:\\Users\\mogwai\\Documents\\Codex\\2026-07-03\\xi\\work\\pets\\xiaochen-hifi-run\\edge-repair-v2\\frames\\waving\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 18204,
+          "bbox": [
+            20,
+            5,
+            171,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "C:\\Users\\mogwai\\Documents\\Codex\\2026-07-03\\xi\\work\\pets\\xiaochen-hifi-run\\edge-repair-v2\\frames\\waving\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 18413,
+          "bbox": [
+            20,
+            5,
+            172,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "C:\\Users\\mogwai\\Documents\\Codex\\2026-07-03\\xi\\work\\pets\\xiaochen-hifi-run\\edge-repair-v2\\frames\\waving\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 18795,
+          "bbox": [
+            20,
+            5,
+            172,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "file": "C:\\Users\\mogwai\\Documents\\Codex\\2026-07-03\\xi\\work\\pets\\xiaochen-hifi-run\\edge-repair-v2\\frames\\waving\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 18014,
+          "bbox": [
+            21,
+            5,
+            171,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ]
+    },
+    {
+      "state": "jumping",
+      "expected_frames": 5,
+      "actual_frames": 5,
+      "extraction_method": null,
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "C:\\Users\\mogwai\\Documents\\Codex\\2026-07-03\\xi\\work\\pets\\xiaochen-hifi-run\\edge-repair-v2\\frames\\jumping\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 10857,
+          "bbox": [
+            37,
+            54,
+            155,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "C:\\Users\\mogwai\\Documents\\Codex\\2026-07-03\\xi\\work\\pets\\xiaochen-hifi-run\\edge-repair-v2\\frames\\jumping\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 10324,
+          "bbox": [
+            37,
+            71,
+            155,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "C:\\Users\\mogwai\\Documents\\Codex\\2026-07-03\\xi\\work\\pets\\xiaochen-hifi-run\\edge-repair-v2\\frames\\jumping\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 10439,
+          "bbox": [
+            37,
+            22,
+            155,
+            162
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "file": "C:\\Users\\mogwai\\Documents\\Codex\\2026-07-03\\xi\\work\\pets\\xiaochen-hifi-run\\edge-repair-v2\\frames\\jumping\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 10633,
+          "bbox": [
+            37,
+            5,
+            155,
+            145
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 4,
+          "file": "C:\\Users\\mogwai\\Documents\\Codex\\2026-07-03\\xi\\work\\pets\\xiaochen-hifi-run\\edge-repair-v2\\frames\\jumping\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 10398,
+          "bbox": [
+            37,
+            68,
+            155,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ]
+    },
+    {
+      "state": "failed",
+      "expected_frames": 8,
+      "actual_frames": 8,
+      "extraction_method": null,
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "C:\\Users\\mogwai\\Documents\\Codex\\2026-07-03\\xi\\work\\pets\\xiaochen-hifi-run\\edge-repair-v2\\frames\\failed\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 18188,
+          "bbox": [
+            25,
+            5,
+            167,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "C:\\Users\\mogwai\\Documents\\Codex\\2026-07-03\\xi\\work\\pets\\xiaochen-hifi-run\\edge-repair-v2\\frames\\failed\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 18055,
+          "bbox": [
+            25,
+            5,
+            167,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "C:\\Users\\mogwai\\Documents\\Codex\\2026-07-03\\xi\\work\\pets\\xiaochen-hifi-run\\edge-repair-v2\\frames\\failed\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17477,
+          "bbox": [
+            25,
+            12,
+            167,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "file": "C:\\Users\\mogwai\\Documents\\Codex\\2026-07-03\\xi\\work\\pets\\xiaochen-hifi-run\\edge-repair-v2\\frames\\failed\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17230,
+          "bbox": [
+            28,
+            11,
+            164,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 4,
+          "file": "C:\\Users\\mogwai\\Documents\\Codex\\2026-07-03\\xi\\work\\pets\\xiaochen-hifi-run\\edge-repair-v2\\frames\\failed\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16618,
+          "bbox": [
+            27,
+            20,
+            165,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 5,
+          "file": "C:\\Users\\mogwai\\Documents\\Codex\\2026-07-03\\xi\\work\\pets\\xiaochen-hifi-run\\edge-repair-v2\\frames\\failed\\05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16725,
+          "bbox": [
+            28,
+            17,
+            164,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 6,
+          "file": "C:\\Users\\mogwai\\Documents\\Codex\\2026-07-03\\xi\\work\\pets\\xiaochen-hifi-run\\edge-repair-v2\\frames\\failed\\06.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17107,
+          "bbox": [
+            28,
+            10,
+            163,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 7,
+          "file": "C:\\Users\\mogwai\\Documents\\Codex\\2026-07-03\\xi\\work\\pets\\xiaochen-hifi-run\\edge-repair-v2\\frames\\failed\\07.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17638,
+          "bbox": [
+            27,
+            8,
+            166,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ]
+    },
+    {
+      "state": "waiting",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": null,
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "C:\\Users\\mogwai\\Documents\\Codex\\2026-07-03\\xi\\work\\pets\\xiaochen-hifi-run\\edge-repair-v2\\frames\\waiting\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17708,
+          "bbox": [
+            20,
+            9,
+            171,
+            201
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "C:\\Users\\mogwai\\Documents\\Codex\\2026-07-03\\xi\\work\\pets\\xiaochen-hifi-run\\edge-repair-v2\\frames\\waiting\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16842,
+          "bbox": [
+            20,
+            16,
+            171,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "C:\\Users\\mogwai\\Documents\\Codex\\2026-07-03\\xi\\work\\pets\\xiaochen-hifi-run\\edge-repair-v2\\frames\\waiting\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17553,
+          "bbox": [
+            22,
+            5,
+            169,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "file": "C:\\Users\\mogwai\\Documents\\Codex\\2026-07-03\\xi\\work\\pets\\xiaochen-hifi-run\\edge-repair-v2\\frames\\waiting\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17040,
+          "bbox": [
+            24,
+            8,
+            167,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 4,
+          "file": "C:\\Users\\mogwai\\Documents\\Codex\\2026-07-03\\xi\\work\\pets\\xiaochen-hifi-run\\edge-repair-v2\\frames\\waiting\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17243,
+          "bbox": [
+            21,
+            9,
+            170,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 5,
+          "file": "C:\\Users\\mogwai\\Documents\\Codex\\2026-07-03\\xi\\work\\pets\\xiaochen-hifi-run\\edge-repair-v2\\frames\\waiting\\05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17556,
+          "bbox": [
+            20,
+            9,
+            171,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ]
+    },
+    {
+      "state": "running",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": null,
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "C:\\Users\\mogwai\\Documents\\Codex\\2026-07-03\\xi\\work\\pets\\xiaochen-hifi-run\\edge-repair-v2\\frames\\running\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 18509,
+          "bbox": [
+            21,
+            5,
+            171,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "C:\\Users\\mogwai\\Documents\\Codex\\2026-07-03\\xi\\work\\pets\\xiaochen-hifi-run\\edge-repair-v2\\frames\\running\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 18560,
+          "bbox": [
+            21,
+            5,
+            171,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "C:\\Users\\mogwai\\Documents\\Codex\\2026-07-03\\xi\\work\\pets\\xiaochen-hifi-run\\edge-repair-v2\\frames\\running\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 18493,
+          "bbox": [
+            21,
+            7,
+            171,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "file": "C:\\Users\\mogwai\\Documents\\Codex\\2026-07-03\\xi\\work\\pets\\xiaochen-hifi-run\\edge-repair-v2\\frames\\running\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 18152,
+          "bbox": [
+            24,
+            6,
+            168,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 4,
+          "file": "C:\\Users\\mogwai\\Documents\\Codex\\2026-07-03\\xi\\work\\pets\\xiaochen-hifi-run\\edge-repair-v2\\frames\\running\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 18628,
+          "bbox": [
+            21,
+            5,
+            171,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 5,
+          "file": "C:\\Users\\mogwai\\Documents\\Codex\\2026-07-03\\xi\\work\\pets\\xiaochen-hifi-run\\edge-repair-v2\\frames\\running\\05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 18467,
+          "bbox": [
+            21,
+            5,
+            171,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ]
+    },
+    {
+      "state": "review",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": null,
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "C:\\Users\\mogwai\\Documents\\Codex\\2026-07-03\\xi\\work\\pets\\xiaochen-hifi-run\\edge-repair-v2\\frames\\review\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 18358,
+          "bbox": [
+            21,
+            5,
+            171,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "C:\\Users\\mogwai\\Documents\\Codex\\2026-07-03\\xi\\work\\pets\\xiaochen-hifi-run\\edge-repair-v2\\frames\\review\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 18047,
+          "bbox": [
+            21,
+            8,
+            171,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "C:\\Users\\mogwai\\Documents\\Codex\\2026-07-03\\xi\\work\\pets\\xiaochen-hifi-run\\edge-repair-v2\\frames\\review\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 18301,
+          "bbox": [
+            21,
+            6,
+            171,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "file": "C:\\Users\\mogwai\\Documents\\Codex\\2026-07-03\\xi\\work\\pets\\xiaochen-hifi-run\\edge-repair-v2\\frames\\review\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17911,
+          "bbox": [
+            21,
+            5,
+            171,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 4,
+          "file": "C:\\Users\\mogwai\\Documents\\Codex\\2026-07-03\\xi\\work\\pets\\xiaochen-hifi-run\\edge-repair-v2\\frames\\review\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 18196,
+          "bbox": [
+            21,
+            5,
+            171,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 5,
+          "file": "C:\\Users\\mogwai\\Documents\\Codex\\2026-07-03\\xi\\work\\pets\\xiaochen-hifi-run\\edge-repair-v2\\frames\\review\\05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 18339,
+          "bbox": [
+            21,
+            6,
+            171,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ]
+    }
+  ]
+}
