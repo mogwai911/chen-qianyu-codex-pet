@@ -51,6 +51,7 @@ All nine GIF previews are in [`previews/`](previews/).
 - [Atlas validation](qa/validation.json), [frame inspection](qa/review.json) and [state swap verification](qa/state-swap-validation.json) passed. Pixel comparisons confirm the two complete rows exchanged places and the other seven rows stayed unchanged.
 - [Edge cleanup](qa/edge-cleanup.json) records the previous approved artwork before this row exchange; its row indexes refer to that earlier layout. No additional image cleanup was applied during the swap.
 - [Independent visual review](qa/visual-review.md) checked hand continuity, supported keyboard, planted feet and loop boundaries in the approved artwork. Its introductory note maps the former waiting bubble to the current idle row.
+- [Browser preview check](qa/state-swap-preview-check.md) confirmed the bubble in idle, quiet blinking in waiting, and the three-cycle transition back to idle using the native frame sequence.
 - Browser preview checks confirmed the 4-, 5- and 6-frame sequences wrap to their first frames. Actual desktop state triggers and cache refresh still depend on the installed Codex build.
 - Minor limitation: the bubble contracts more visibly between frames 4 and 5 than in its other steps.
 
