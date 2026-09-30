@@ -4,13 +4,11 @@ A soft chibi anime companion for Codex, with black cat ears, long dark hair, a b
 
 ## Install
 
-```bash
-npx petdex@latest install chen-qianyu-3
-```
+**Latest calm-loop version:** use the package in this repository. The Petdex online entry has not been updated to this revision, so `npx petdex@latest install chen-qianyu-3` currently installs the previous public version.
 
 The Petdex entry is `chen-qianyu-3`; the package ID remains `chen-qianyu`.
 
-For the package in this repository, download [`dist/chen-qianyu-petdex.zip`](dist/chen-qianyu-petdex.zip), or copy the `pet` files locally:
+Download [`dist/chen-qianyu-petdex.zip`](dist/chen-qianyu-petdex.zip), or copy the `pet` files locally:
 
 ```powershell
 $petDir = Join-Path $env:USERPROFILE '.codex/pets/chen-qianyu-3'
