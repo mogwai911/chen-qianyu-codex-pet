@@ -1,58 +1,11 @@
-# Publishing Options
+# Publishing
 
-## Best First Path
+GitHub is the source repository for the package, previews and validation records. Update these together:
 
-1. Push this repository to GitHub.
-2. Create a GitHub Release and attach `dist/chen-qianyu-petdex.zip`.
-3. Submit the same package to Petdex.
-
-## GitHub
-
-Use GitHub as the canonical source page:
-
-- `pet/pet.json`
-- `pet/spritesheet.webp`
-- `previews/*.gif`
-- `qa/contact-sheet.png`
-- `qa/edge-check-sheet.png`
-- `qa/validation.json`
+- `pet/pet.json` and `pet/spritesheet.webp`
 - `dist/chen-qianyu-petdex.zip`
+- `previews/*.gif`
+- `qa/contact-sheet.png` and current QA reports
+- `README.md` and `SUBMISSION.md`
 
-GitHub Releases are useful for download links because release assets can hold binary ZIP/WebP files.
-
-## Petdex
-
-Petdex is the most relevant discovery channel for Codex-compatible pets.
-
-Submit either:
-
-```bash
-npx petdex submit ./pet
-```
-
-or:
-
-```bash
-npx petdex submit ./dist/chen-qianyu-petdex.zip
-```
-
-## Other Channels
-
-- OpenAI Community: good for showing the pet, install steps, and GitHub link to other Codex users.
-- itch.io: good if you want a polished asset-pack page or optional tips/pay-what-you-want downloads.
-- OpenGameArt: only if you are comfortable releasing under an accepted open/free art license.
-- Pixiv / ArtStation / X / Bluesky / Bilibili: good for artwork showcase and process posts, with GitHub/Petdex links.
-- Discord communities: useful for feedback and early installs, especially Petdex/Codex/AI-coding communities.
-
-## License Decision
-
-Before broad public distribution, decide whether this is:
-
-- all rights reserved, portfolio/share-only;
-- free personal use;
-- CC BY 4.0;
-- CC BY-NC 4.0;
-- CC0/public domain;
-- another custom license.
-
-OpenGameArt and similar free-asset sites require compatible open/free licenses, so do not submit there until the license is intentional.
+Petdex already has this pet as `chen-qianyu-3`. Use its existing-entry update flow under the owner account; a new submission can create a duplicate. Both destinations must use the same approved package. The repository's existing MIT license is preserved.

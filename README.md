@@ -1,66 +1,62 @@
-# Chen Qianyu / Xiaochen Codex Pet
+# 陈千语（小陈） · Codex Pet
 
-`chen-qianyu` is a high-fidelity chibi anime Codex pet. Her full name is Chen Qianyu (`陈千语`), and Xiaochen (`小陈`) is her nickname.
+A soft chibi anime companion for Codex, with black cat ears, long dark hair, a blue cape and a tiny keyboard.
 
-The pet uses the standard Codex pet atlas layout: 8 columns by 9 rows, with 192x208 cells and the states `idle`, `running-right`, `running-left`, `waving`, `jumping`, `failed`, `waiting`, `running`, and `review`.
+## Install
 
-## Preview
+```bash
+npx petdex@latest install chen-qianyu-3
+```
 
-![Contact sheet](qa/contact-sheet.png)
+The Petdex entry is `chen-qianyu-3`; the package ID remains `chen-qianyu`.
 
-Selected animation previews are in [`previews/`](previews/).
-
-## Install Locally
-
-Copy the package folder into your Codex pets directory:
+For the package in this repository, download [`dist/chen-qianyu-petdex.zip`](dist/chen-qianyu-petdex.zip), or copy the `pet` files locally:
 
 ```powershell
-New-Item -ItemType Directory -Force "$env:USERPROFILE\.codex\pets\chen-qianyu"
-Copy-Item -Path ".\pet\pet.json", ".\pet\spritesheet.webp" -Destination "$env:USERPROFILE\.codex\pets\chen-qianyu" -Force
+$petDir = Join-Path $env:USERPROFILE '.codex/pets/chen-qianyu-3'
+New-Item -ItemType Directory -Force -Path $petDir
+Copy-Item -LiteralPath './pet/pet.json', './pet/spritesheet.webp' -Destination $petDir -Force
 ```
 
-Then select `custom:chen-qianyu` in Codex settings if your Codex build exposes custom pet selection by id.
+Reselect **陈千语（小陈）** in Codex's pet settings to refresh the artwork. Restart Codex if it still displays a cached version.
 
-## Petdex Submit
+## 2026-10-01: calmer loops
 
-Petdex accepts either a pet folder or a zip whose root contains:
+The animation set adds coordinated body and facial changes. The latest revision rebuilds three short loops around restrained, continuous poses:
 
-- `pet.json`
-- `spritesheet.webp`
+| Native slot | Visible action | Frames |
+| --- | --- | ---: |
+| `idle` | Breathing and blinking | 6 |
+| `running-right` | Rightward run | 8 |
+| `running-left` | Leftward run | 8 |
+| `waving` | Same hand stays raised; only the wrist waves | 4 |
+| `jumping` | Affectionate head tilt and closed-eye smile, with feet planted | 5 |
+| `failed` | Surprise, disappointment and recovery | 8 |
+| `waiting` | Bored blink and a small expanding/contracting bubble | 6 |
+| `running` | Focused typing | 6 |
+| `review` | Thoughtful glance and nod | 6 |
 
-This repository includes a ready package at:
+The `jumping` and `waiting` state triggers remain native; their artwork has changed. Codex controls the fixed frame counts and playback durations. This package does not extend those durations.
 
-```text
-dist/chen-qianyu-petdex.zip
-```
+| Small wave | Affectionate tilt | Bored bubble |
+| --- | --- | --- |
+| ![Small wave](previews/waving.gif) | ![Affectionate tilt](previews/jumping.gif) | ![Bored bubble](previews/waiting.gif) |
 
-Submit with:
+![All animation frames](qa/contact-sheet.png)
 
-```bash
-npx petdex login
-npx petdex submit ./pet
-```
+All nine GIF previews are in [`previews/`](previews/).
 
-or:
+## Format and validation
 
-```bash
-npx petdex submit ./dist/chen-qianyu-petdex.zip
-```
+- Codex v1 atlas: 1536 × 1872, 8 columns × 9 rows, 192 × 208 per cell.
+- 57 used frames; unused cells are transparent. Lossless RGBA WebP.
+- [Atlas validation](qa/validation.json), [frame inspection](qa/review.json) and [edge cleanup](qa/edge-cleanup.json) passed.
+- [Independent visual review](qa/visual-review.md) checked hand continuity, supported keyboard, planted feet and loop boundaries in the three revised rows.
+- Browser preview checks confirmed the 4-, 5- and 6-frame sequences wrap to their first frames. Actual desktop state triggers and cache refresh still depend on the installed Codex build.
+- Minor limitation: the bubble contracts more visibly between frames 4 and 5 than in its other steps.
 
-## QA
+Diagnostic references to `extracted-frames/` and `assembly/` describe intermediate files; they are not required for installation.
 
-The final package is based on `edge-repair-v2`.
+## License
 
-- Visual QA: pass
-- Atlas validation: pass
-- Spritesheet: `1536x1872`, WebP, RGBA
-- Transparent RGB residue: `0`
-- Installed/final SHA256: `75AE6E046064E12A6A38645CC4B2032942F6F4DA3248D6E15367145DDA170968`
-
-Detailed validation artifacts are in [`qa/`](qa/).
-
-## Notes
-
-The local Codex install can keep the shorter id `xiaochen`; the public package uses `chen-qianyu` so the character's full name is clear.
-
-Choose a license before publishing publicly if you want other people to remix, redistribute, or use the artwork outside personal Codex pet installs.
+[MIT](LICENSE).

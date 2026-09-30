@@ -1,52 +1,12 @@
-# Submission Notes
+# Petdex submission
 
-## Character
+- Existing public entry: `chen-qianyu-3`
+- Package ID: `chen-qianyu`
+- Name: `陈千语（小陈）`
+- Source: https://github.com/mogwai911/chen-qianyu-codex-pet
+- Package: `dist/chen-qianyu-petdex.zip`
+- Contents: `pet.json` and `spritesheet.webp` at ZIP root
 
-- Full name: `陈千语`
-- Nickname: `小陈`
-- Public slug: `chen-qianyu`
-- Display name: `陈千语（小陈）`
+2026-10-01 update: richer body and facial acting, continuous same-hand wrist wave, affectionate head tilt replacing the jump, and a restrained boredom bubble replacing the larger waiting gesture. Native frame counts and timings are unchanged.
 
-## Recommended Short Description
-
-High-fidelity soft chibi anime coding companion with clean complete-loop animations.
-
-## Recommended Tags
-
-`character`, `cheerful`, `focused`, `wholesome`, `blue`, `anime`, `chibi`
-
-## Publishing Channels
-
-Primary channels:
-
-- GitHub repository: source, preview GIFs, validation files, and release ZIP.
-- Petdex: Codex-pet-specific gallery and one-command installs.
-
-Optional channels:
-
-- itch.io as a free/pay-what-you-want game asset page.
-- OpenGameArt if you choose an accepted open/free license.
-- Pixiv, ArtStation, X, Bluesky, or Bilibili for artwork/process showcase.
-- Discord communities for Petdex, Codex, and AI/tooling demos.
-
-## Petdex Package Shape
-
-The submission folder or zip root must contain:
-
-```text
-pet.json
-spritesheet.webp
-```
-
-Use:
-
-```bash
-npx petdex login
-npx petdex submit ./pet
-```
-
-or:
-
-```bash
-npx petdex submit ./dist/chen-qianyu-petdex.zip
-```
+Keep the existing entry when updating. Do not submit a duplicate as a new pet.
