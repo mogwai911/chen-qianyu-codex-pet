@@ -9,3 +9,5 @@ GitHub is the source repository for the package, previews and validation records
 - `README.md` and `SUBMISSION.md`
 
 Petdex already has this pet as `chen-qianyu-3`. Use its existing-entry update flow under the owner account; a new submission can create a duplicate. Both destinations must use the same approved package. The repository's existing MIT license is preserved.
+
+Current status: the GitHub package includes the idle/waiting artwork exchange. Petdex online publication is deferred at the owner's request; do not update it until requested.

@@ -20,25 +20,25 @@ Reselect **陈千语（小陈）** in Codex's pet settings to refresh the artwor
 
 ## 2026-10-01: calmer loops
 
-The animation set adds coordinated body and facial changes. The latest revision rebuilds three short loops around restrained, continuous poses:
+The animation set adds coordinated body and facial changes, with a small same-hand wave and an affectionate head tilt. The latest revision swaps the idle and waiting artwork: boredom bubbles now play during idle time, while quiet breathing and blinking accompanies the waiting state.
 
 | Native slot | Visible action | Frames |
 | --- | --- | ---: |
-| `idle` | Breathing and blinking | 6 |
+| `idle` | Bored blink and a small expanding/contracting bubble | 6 |
 | `running-right` | Rightward run | 8 |
 | `running-left` | Leftward run | 8 |
 | `waving` | Same hand stays raised; only the wrist waves | 4 |
 | `jumping` | Affectionate head tilt and closed-eye smile, with feet planted | 5 |
 | `failed` | Surprise, disappointment and recovery | 8 |
-| `waiting` | Bored blink and a small expanding/contracting bubble | 6 |
+| `waiting` | Quiet breathing and blinking | 6 |
 | `running` | Focused typing | 6 |
 | `review` | Thoughtful glance and nod | 6 |
 
-The `jumping` and `waiting` state triggers remain native; their artwork has changed. Codex controls the fixed frame counts and playback durations. This package does not extend those durations.
+Codex still selects the native states; this package maps the artwork to their atlas rows. The six-frame idle and waiting rows were exchanged without redrawing or changing the other seven rows. Each row uses the native timing of its destination state: the idle bubble loop takes 6.6 seconds. Codex controls the fixed frame counts and playback durations.
 
 | Small wave | Affectionate tilt | Bored bubble |
 | --- | --- | --- |
-| ![Small wave](previews/waving.gif) | ![Affectionate tilt](previews/jumping.gif) | ![Bored bubble](previews/waiting.gif) |
+| ![Small wave](previews/waving.gif) | ![Affectionate tilt](previews/jumping.gif) | ![Bored bubble](previews/idle.gif) |
 
 ![All animation frames](qa/contact-sheet.png)
 
@@ -48,8 +48,9 @@ All nine GIF previews are in [`previews/`](previews/).
 
 - Codex v1 atlas: 1536 × 1872, 8 columns × 9 rows, 192 × 208 per cell.
 - 57 used frames; unused cells are transparent. Lossless RGBA WebP.
-- [Atlas validation](qa/validation.json), [frame inspection](qa/review.json) and [edge cleanup](qa/edge-cleanup.json) passed.
-- [Independent visual review](qa/visual-review.md) checked hand continuity, supported keyboard, planted feet and loop boundaries in the three revised rows.
+- [Atlas validation](qa/validation.json), [frame inspection](qa/review.json) and [state swap verification](qa/state-swap-validation.json) passed. Pixel comparisons confirm the two complete rows exchanged places and the other seven rows stayed unchanged.
+- [Edge cleanup](qa/edge-cleanup.json) records the previous approved artwork before this row exchange; its row indexes refer to that earlier layout. No additional image cleanup was applied during the swap.
+- [Independent visual review](qa/visual-review.md) checked hand continuity, supported keyboard, planted feet and loop boundaries in the approved artwork. Its introductory note maps the former waiting bubble to the current idle row.
 - Browser preview checks confirmed the 4-, 5- and 6-frame sequences wrap to their first frames. Actual desktop state triggers and cache refresh still depend on the installed Codex build.
 - Minor limitation: the bubble contracts more visibly between frames 4 and 5 than in its other steps.
 

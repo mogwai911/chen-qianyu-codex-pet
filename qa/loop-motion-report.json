@@ -8,77 +8,77 @@
         {
           "frame": 0,
           "bbox": [
-            24,
-            18,
-            166,
-            199
-          ],
-          "height": 181,
-          "magenta_pixels": 0
-        },
-        {
-          "frame": 1,
-          "bbox": [
-            22,
+            20,
             7,
-            168,
+            171,
             201
           ],
           "height": 194,
           "magenta_pixels": 0
         },
         {
+          "frame": 1,
+          "bbox": [
+            19,
+            7,
+            172,
+            200
+          ],
+          "height": 193,
+          "magenta_pixels": 0
+        },
+        {
           "frame": 2,
           "bbox": [
-            26,
-            21,
-            165,
+            19,
+            8,
+            171,
             201
           ],
-          "height": 180,
+          "height": 193,
           "magenta_pixels": 0
         },
         {
           "frame": 3,
           "bbox": [
-            23,
-            21,
-            168,
+            20,
+            8,
+            170,
             201
           ],
-          "height": 180,
+          "height": 193,
           "magenta_pixels": 0
         },
         {
           "frame": 4,
           "bbox": [
-            23,
-            26,
-            168,
+            20,
+            7,
+            171,
             201
           ],
-          "height": 175,
+          "height": 194,
           "magenta_pixels": 0
         },
         {
           "frame": 5,
           "bbox": [
-            25,
-            18,
-            166,
-            199
+            20,
+            8,
+            171,
+            201
           ],
-          "height": 181,
+          "height": 193,
           "magenta_pixels": 0
         }
       ],
       "adjacent_rgb_mae_including_loop": [
-        21.286,
-        23.259,
-        13.357,
-        19.15,
-        22.643,
-        4.678
+        7.128,
+        9.484,
+        7.878,
+        10.616,
+        7.038,
+        9.98
       ]
     },
     {
@@ -518,77 +518,77 @@
         {
           "frame": 0,
           "bbox": [
-            20,
-            7,
-            171,
-            201
+            24,
+            18,
+            166,
+            199
           ],
-          "height": 194,
+          "height": 181,
           "magenta_pixels": 0
         },
         {
           "frame": 1,
           "bbox": [
-            19,
+            22,
             7,
-            172,
-            200
-          ],
-          "height": 193,
-          "magenta_pixels": 0
-        },
-        {
-          "frame": 2,
-          "bbox": [
-            19,
-            8,
-            171,
-            201
-          ],
-          "height": 193,
-          "magenta_pixels": 0
-        },
-        {
-          "frame": 3,
-          "bbox": [
-            20,
-            8,
-            170,
-            201
-          ],
-          "height": 193,
-          "magenta_pixels": 0
-        },
-        {
-          "frame": 4,
-          "bbox": [
-            20,
-            7,
-            171,
+            168,
             201
           ],
           "height": 194,
           "magenta_pixels": 0
         },
         {
-          "frame": 5,
+          "frame": 2,
           "bbox": [
-            20,
-            8,
-            171,
+            26,
+            21,
+            165,
             201
           ],
-          "height": 193,
+          "height": 180,
+          "magenta_pixels": 0
+        },
+        {
+          "frame": 3,
+          "bbox": [
+            23,
+            21,
+            168,
+            201
+          ],
+          "height": 180,
+          "magenta_pixels": 0
+        },
+        {
+          "frame": 4,
+          "bbox": [
+            23,
+            26,
+            168,
+            201
+          ],
+          "height": 175,
+          "magenta_pixels": 0
+        },
+        {
+          "frame": 5,
+          "bbox": [
+            25,
+            18,
+            166,
+            199
+          ],
+          "height": 181,
           "magenta_pixels": 0
         }
       ],
       "adjacent_rgb_mae_including_loop": [
-        7.128,
-        9.484,
-        7.878,
-        10.616,
-        7.038,
-        9.98
+        21.286,
+        23.259,
+        13.357,
+        19.15,
+        22.643,
+        4.678
       ]
     },
     {

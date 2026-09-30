@@ -29,12 +29,12 @@
           "file": "extracted-frames/idle/00.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 17120,
+          "nontransparent_pixels": 19562,
           "bbox": [
-            22,
-            15,
-            169,
-            202
+            17,
+            5,
+            174,
+            203
           ],
           "edge_pixels": 0,
           "chroma_adjacent_pixels": 0
@@ -44,11 +44,11 @@
           "file": "extracted-frames/idle/01.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 18132,
+          "nontransparent_pixels": 19769,
           "bbox": [
-            21,
+            17,
             5,
-            170,
+            174,
             203
           ],
           "edge_pixels": 0,
@@ -59,11 +59,11 @@
           "file": "extracted-frames/idle/02.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 16982,
+          "nontransparent_pixels": 19862,
           "bbox": [
-            24,
-            19,
-            167,
+            17,
+            5,
+            174,
             203
           ],
           "edge_pixels": 0,
@@ -74,11 +74,11 @@
           "file": "extracted-frames/idle/03.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 17518,
+          "nontransparent_pixels": 19822,
           "bbox": [
-            21,
-            19,
-            170,
+            17,
+            5,
+            173,
             203
           ],
           "edge_pixels": 0,
@@ -89,11 +89,11 @@
           "file": "extracted-frames/idle/04.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 17301,
+          "nontransparent_pixels": 19529,
           "bbox": [
-            21,
-            24,
-            170,
+            18,
+            5,
+            173,
             203
           ],
           "edge_pixels": 0,
@@ -104,12 +104,12 @@
           "file": "extracted-frames/idle/05.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 17119,
+          "nontransparent_pixels": 19486,
           "bbox": [
-            23,
-            15,
-            168,
-            202
+            18,
+            6,
+            173,
+            203
           ],
           "edge_pixels": 0,
           "chroma_adjacent_pixels": 0
@@ -680,12 +680,12 @@
           "file": "extracted-frames/waiting/00.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 19562,
+          "nontransparent_pixels": 17120,
           "bbox": [
-            17,
-            5,
-            174,
-            203
+            22,
+            15,
+            169,
+            202
           ],
           "edge_pixels": 0,
           "chroma_adjacent_pixels": 0
@@ -695,11 +695,11 @@
           "file": "extracted-frames/waiting/01.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 19769,
+          "nontransparent_pixels": 18132,
           "bbox": [
-            17,
+            21,
             5,
-            174,
+            170,
             203
           ],
           "edge_pixels": 0,
@@ -710,11 +710,11 @@
           "file": "extracted-frames/waiting/02.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 19862,
+          "nontransparent_pixels": 16982,
           "bbox": [
-            17,
-            5,
-            174,
+            24,
+            19,
+            167,
             203
           ],
           "edge_pixels": 0,
@@ -725,11 +725,11 @@
           "file": "extracted-frames/waiting/03.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 19822,
+          "nontransparent_pixels": 17518,
           "bbox": [
-            17,
-            5,
-            173,
+            21,
+            19,
+            170,
             203
           ],
           "edge_pixels": 0,
@@ -740,11 +740,11 @@
           "file": "extracted-frames/waiting/04.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 19529,
+          "nontransparent_pixels": 17301,
           "bbox": [
-            18,
-            5,
-            173,
+            21,
+            24,
+            170,
             203
           ],
           "edge_pixels": 0,
@@ -755,12 +755,12 @@
           "file": "extracted-frames/waiting/05.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 19486,
+          "nontransparent_pixels": 17119,
           "bbox": [
-            18,
-            6,
-            173,
-            203
+            23,
+            15,
+            168,
+            202
           ],
           "edge_pixels": 0,
           "chroma_adjacent_pixels": 0
